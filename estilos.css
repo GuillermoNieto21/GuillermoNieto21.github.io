@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Encabezado ***********************************************************************************************************************/
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #1ebae9;
+}
+
+.navbar ul{
+	list-style: none;
+}
+
+/* MenÃº */
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	transition: all .3s;
+}
+
+/* Sub-menÃº */
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+    font: bold 110% monospace;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*******************************************************************************************************************************************/
+
+/* header */
+.header {
+    background: #faf8f8;
+}
+
+/* TODO EL CONTENIDO*/
+/* Titulo unidad 1.1*/
+.title {
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(105, 28, 136);
+    line-height: 1.5em;
+    font: bold 320% monospace;
+}
+
+/* Sub-titulo 1.1.1*/
+.sub-title {
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: rgb(235, 140, 171);
+    line-height: 1.5em;
+    font: bold 250% monospace;
+    text-align: left;
+    padding-left: 75px;
+}
+
+/* Nombre parrafo*/
+.tema {
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: rgb(33, 143, 194);
+    line-height: 1.5em;
+    font: bold 180% monospace;
+    text-align: left;
+    padding-left: 75px;
+    text-transform: uppercase;
+}
+
+/* Sub-nombre parrafo para color negro*/
+.sub-tema {
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: rgb(138, 135, 135);
+    line-height: 1.5em;
+    font: bold 150% monospace;
+    text-align: left;
+    padding-left: 75px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Texto negro */
+.texto-justificado2 {
+    text-align: justify;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+    padding: 0 75px;
+    font: bold 130% monospace;
+}
+
+/* Texto blanco */
+p {
+    margin-bottom: 40px;
+    line-height: 1.5em;
+    color: rgb(14, 0, 0);
+    padding: 0 75px;
+    font: bold 130% monospace;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+/* Alineacion conyenido */
+.content {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*************************************************************** U N I D A D   1 ************************************************************/
+/* TEMA 1.1	Modelos de arquitecturas de cÃ³mputo */
+.mad {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.1.1 ClÃ¡sicas */
+.clasicas {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.1.2 Segmentadas */
+.segmentadas {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.1.3 Multiprocesadores */
+.multiprocesadores{
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.2	AnÃ¡lisis de los componentes */
+.ac {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.2.1 Arquitecturas */
+.arquitecturas {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.2.2 Unidad central de procesamiento */
+.ucp {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.2.3 Unidad aritmÃ©tica lÃ³gica */
+.ual {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.2.4 Registros */
+.registros {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.2.5 Busos */
+.buses {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.3 Memoria */
+.memoria {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.3.1 Conceptos bÃ¡sicas del manejo de memoria */
+.cbmm {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.3.2 Memoria principal */
+.mp {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.3.3 Memoria cachÃ© */
+.mc {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.4	Manejo de entrada/salida  */
+.es {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.4.1 Modulos E/S */
+.mES {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.4.2 E/S Programado */
+.ESp {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.4.3 E/S por interrupciones */
+.ESi {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 1.4.4 Acceso directo a memoria */
+.adm {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 1.4.5 Canales y procesadores E/S */
+.cpES {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/*************************************************************** U N I D A D   2 ************************************************************/
+/* Tema 2.1	OrganizaciÃ³n del procesador */
+.op {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 2.2	La estructura de registros */
+.er {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 2.2.1 Registros visibles para el usuario */
+.rvu {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 2.2.2 Registros de control y de estados */
+.rce {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 2.2.3 Ejemplos de registros en CPU */
+.cpu {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 2.3	Ciclo de la instrucciÃ³n */
+.ci {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 2.3.1 SegmentaciÃ³n de instrucciones */
+.si {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 2.3.2 Ciclo FDE */
+.fde {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 2.3.3 Conjunto de instrucciones, caracterÃ­sticas y funciones */
+.cicf {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 2.3.4 Voz modos de direccionamiento */
+.vmd {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 2.4	Casos de estudio de CPU */
+.ce {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/*************************************************************** U N I D A D   3 ************************************************************/
+/* Tema 3.1	Chipset */
+.ch {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.1.1 Unidad central de procesamiento */
+.uni {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.1.2 Controladores de */
+.con {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.1.3 MÃ³dulos de entrada/salida */
+.mod {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.1.4 Controlador de interrupciones */
+.coni {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.1.5 Controlador de acceso directo a memoria */
+.cona {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.1.6 Circuitos de temporalizaciÃ³n */
+.cirt {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.1.7 Circuitos de control */
+.circ {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.1.8 Controladores de video */
+.conv {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.2	Aplicaciones */
+.apl {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.2.1 Entrada/Salida */
+.ent {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.2.2 Almacenamiento */
+.alm {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.2.3 Fuentes de alimentaciÃ³n */
+.fun {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 3.3	Ambientes de servicio */
+.amb {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.3.1 Negocios */
+.neg {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 3.3.2 Industria */
+.ind {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/*************************************************************** U N I D A D   4 ************************************************************/
+/* Tema 4.1	Aspectos bÃ¡sicos de la computaciÃ³n paralela */
+.abcp {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 4.2	Tipos de computaciÃ³n paralela */
+.tcp {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 4.2.1 ClasificaciÃ³n  */
+.cla {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 4.2.2 Arquitectura de computadores secuenciales */
+.art {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 4.2.3 OrganizaciÃ³n de direcciones de memoria */
+.odm {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 4.3	Sistemas de memoria de multiprocesadores (comparaciones) */
+.smmc {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 4.3.1 Fuentes de interconexiÃ³n dinÃ¡mica */
+.fid {
+    padding: 5px 0;
+    background: #faf8f8;
+}
+
+/* Tema 4.4	Sistemas de memoria de multiprocesadores (distributiva) */
+.smmd {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 4.4.1 Red de interconexiÃ³n estÃ¡tica */
+.rie {
+    padding: 5px 0;
+    background: #000000;
+}
+
+/* Tema 4.5	Cosas para estudio */
+.cpe {
+    padding: 5px 0;
+    background: #faf8f8;
+}
